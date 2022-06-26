@@ -51,7 +51,7 @@ st.markdown(
 
 # SIDEBAR
 with st.sidebar:
-    st.image('/img_sidebar_lead_scoring.png')
+    st.image('img_sidebar.jpg')
     st.markdown('')
 
     col1, col2, col3, col4, col5 = st.columns([0.5,1,0.25,1,0.5])
@@ -95,7 +95,7 @@ with st.sidebar:
 # Title image
 col1,col2,col3 = st.columns([0.8,1,0.5])
 with col2:
-    st.image('/img_title.png')
+    st.image('img_title.png')
 
 placeholder = st.empty()
 
