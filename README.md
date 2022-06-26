@@ -20,6 +20,13 @@ Once these leads are acquired, employees from the sales team start making calls,
 
 ## Project results  <a name="project-results"></a>
 
+### Lead scoring model
+By applying the developed lead scoring predictive model, the company has been able to:
+1. Increase its sales profit by 2.7%.
+2. Save 36.8% of the amount of money lost due to the management of low quality leads.
+3. Increase lead-to-customer conversion rate from 38% to 50%.
+4. Save 23% of time spent by employees on managing leads.
+
 
 ## Project structure <a name="project-structure"></a>
 - :file_folder: 01_Documents
