@@ -19,6 +19,22 @@ Once these leads are acquired, employees from the sales team start making calls,
 2. Creating advanced analytical assets such as a predictive lead scoring and customer segmentation algorithms that helps sales team to identify both potential customers who are most likely to convert into paying customers and leads who are not economically profitable to manage.
 
 ## Project results  <a name="project-results"></a>
+### Actionable initiatives derived from exploratory data analysis
+#### Actions to improve company's customer knowledge
+1. Improve quality of the survey or form questions to receive more user inputs and reduce NaN/default ('Select') values.
+2. Improve algorithm for the activity and profile score/index to produce complete and more accurate results.
+3. Colect time stamp visiting the website for seasonality analysis and implement cookies to identity and track users as they navigate different pages on the website.
+4. Implement a new lead segmentation algorithm that identifies the company's different leads profiles and makes it possible to identify which group best fit for each new lead, in order to be able to carry out more personalised commercial actions.
+#### Actions to improve lead-to-customer conversion rate
+1. Implement a predictive lead scoring algorithm that identifies people who are most likely to convert into paying customers through the most efficient channel for each lead and relieves the sales team of the workload of manually filling in features such as lead_quality, lead_profile or tags so they will be able to spend more time on contacting the most promising customers.
+### Actions to improve commercial and marketing channels performance
+1. Improve the content strategy of the website, lead magnet and emails to attract traffic and increase the time people spend on the website by creating tailored content mainly for working professionals in the Indian management sector.
+2. Create a referral program to encourage existing customers to recommend the course to their friends, family, and colleagues.
+3. Invest more resources into acquiring leads from 'Welingak website'.
+4. Increase investments in SMS campaigns as they are performing well.
+5. Check whether the default value for advertisement features is set to 'No' in the web form, which could explain the high percentage of 'No' for all of them. If this is not the case, then the advertising investment strategy should be completely revised as it is not generating almost any lead (0,24%).
+6. Check that the sales team is only contacting people who have given their consent to do so.
+
 ### Lead scoring model
 By applying the developed lead scoring predictive model, the company has been able to:
 1. Increase its sales profit by 2.7%.
