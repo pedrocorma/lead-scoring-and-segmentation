@@ -42,6 +42,19 @@ By applying the developed lead scoring predictive model, the company has been ab
 3. Increase lead-to-customer conversion rate from 38% to 50%.
 4. Save 23% of time spent by employees on managing leads.
 
+	As is	To be	Improvements
+Conversion Rate	0.389603	0.498547	Increased by 0.11
+Workload	1789	1376	Reduced by 23.09%
+Lost investments	3549.0	2242.5	Reduced by 36.81%
+Sales profit	29028.78	29821.14	Increased by 2.73%
+
+|   | As is | To be | Improvements |
+| ------------- | ------------- | ------------- | ------------- |
+| Conversion Rate  | 0.3896  | 0.4985 | Increased by 0.11
+| Workload  | 1789 leads  | 1376 leads | Reduced by 23.09% |
+| Lost investments   | 3549.0 $ | 2242.5 $ | Reduced by 36.81% |
+| Sales profit | 29028.78 $ | 29821.14 $ | Increased by 2.73% |
+
 ### Lead segmentation model:
 Six different potential customer profiles have been identified. Through the analysis of these customer segments, a series of insights have been derived that lead to the following actionable initiatives:
 1. The company's most valuable leads are those that come from referrals or from Welingak website, and even more so if they are working professionals. As proposed in the exploratory data analysis section, the company should seriously consider creating a referral programme to encourage existing customers to recommend the course to their close circle.
