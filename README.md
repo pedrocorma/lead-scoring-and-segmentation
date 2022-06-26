@@ -18,38 +18,38 @@ Once these leads are acquired, employees from the sales team start making calls,
 ## Project structure <a name="project-structure"></a>
 - :file_folder: 01_Documents
   - Contains basic project files:
-    - *Leads Data Dictionary.pdf*: feature-level metadata.
-    - *pf_leadscoring.yml*: project environment file.
-    - *Development stage_Data Transformation Design.xlsx*: support file for designing feature transformation processes.
-    - *Production stage_Processes Design*: support file for designing final production script.
-- :file_folder: `02_Data`
-  - :file_folder: `01_Originals`
-    - *Leads.csv*: Original dataset.
-  - :file_folder: `02_Validation`
-    - *validation.csv*: Sample extracted from the original dataset at the beginning of the project in order to be used to check the correct performance of the model once it is put into production.
-  - :file_folder: `03_Work`
+    - `Leads Data Dictionary.pdf`: feature-level metadata.
+    - `pf_leadscoring.yml`: project environment file.
+    - `Development stage_Data Transformation Design.xlsx`: support file for designing feature transformation processes.
+    - `Production stage_Processes Design`: support file for designing final production script.
+- :file_folder: 02_Data
+  - :file_folder: 01_Originals
+    - `Leads.csv`: Original dataset.
+  - :file_folder: 02_Validation
+    - `validation.csv`: Sample extracted from the original dataset at the beginning of the project in order to be used to check the correct performance of the model once it is put into production.
+  - :file_folder: 03_Work
     - This folder contains the datasets resulting from each of the stages of the project (data quality, exploratory data analysis, feature transformation...).
-- :file_folder: `03_Notebooks`
-  - :file_folder: `02_Development`
-    - *00_Project Design.ipynb*: Notebook compiling the initial design of the project.
-    - *01_Set Up.ipynb*: Notebook used for the initial set up of the project.
-    - *02_Data Quality.ipynb*: Notebook detailing and executing all data quality processes.
-    - *03_EDA.ipynb*: Notebook used for the execution of the exploratory data analysis and which collects the business insights found.
-    - *04_Feature Transformation.ipynb*: Notebook that details and executes the data transformation processes necessary to prepare the features  for input into the models.
-    - *05_Unsupervised Modelling.ipynb*: Notebook for modelling the unsupervised Kmeans algorithm used to perform lead segmentation. It also includes the segment profiling from a business point of view as well as the insights and conclusions obtained from this process.
-    - *06_Feature Selection.ipynb*: Notebook used to make a selection of the final variables to be entered into the models.
-    - *07_Supervised Classification Modelling.ipynb*: Notebook for modelling the predictive lead scoring model. Model selection, hyperparameterisation, selection of the optimal discrimination threshold and evaluation of results.
-    - *08_Production Code Preparation.ipynb*: Notebook used to compile all the quality, transformation and variable selection processes, as well as the final model and execution and retraining processes, with the aim of creating the final retraining and execution pipes that condense all the aforementioned processes.
-    - *09_Retraining script.ipynb*: Notebook to retrain the model with new data when necessary.
-    - *10_Execution script.ipynb*: Notebook to execute the final model and obtain the results.
-  - `03_System/App_lead_scoring`
+- :file_folder: 03_Notebooks
+  - :file_folder: 02_Development
+    - `00_Project Design.ipynb`: Notebook compiling the initial design of the project.
+    - `01_Set Up.ipynb`: Notebook used for the initial set up of the project.
+    - `02_Data Quality.ipynb`: Notebook detailing and executing all data quality processes.
+    - `03_EDA.ipynb`: Notebook used for the execution of the exploratory data analysis and which collects the business insights found.
+    - `04_Feature Transformation.ipynb`: Notebook that details and executes the data transformation processes necessary to prepare the features  for input into the models.
+    - `05_Unsupervised Modelling.ipynb`: Notebook for modelling the unsupervised Kmeans algorithm used to perform lead segmentation. It also includes the segment profiling from a business point of view as well as the insights and conclusions obtained from this process.
+    - `06_Feature Selection.ipynb`: Notebook used to make a selection of the final variables to be entered into the models.
+    - `07_Supervised Classification Modelling.ipynb`: Notebook for modelling the predictive lead scoring model. Model selection, hyperparameterisation, selection of the optimal discrimination threshold and evaluation of results.
+    - `08_Production Code Preparation.ipynb`: Notebook used to compile all the quality, transformation and variable selection processes, as well as the final model and execution and retraining processes, with the aim of creating the final retraining and execution pipes that condense all the aforementioned processes.
+    - `09_Retraining script.ipynb`: Notebook to retrain the model with new data when necessary.
+    - `10_Execution script.ipynb`: Notebook to execute the final model and obtain the results.
+  - :file_folder: 03_System/App_lead_scoring
     - This folder contains the files (app script, production script, models, ...) used in the deployment of the web application [Lead scoring analyzer"](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-asrw2z.streamlitapp.com/).
-- :file_folder: `04_Models`
-  - *pipe_execution.pickle*: pipe that condenses the final trained model as well as all necessary prior data transformations.
-  - *pipe_training.pickle*:  pipe that condenses the entire training process. It can be used to retrain the model with new data when necessary.
-  - *optimal_disc_threshold.pickle*: Contains the value of the optimal discrimination threshold of the model that maximises the company's roi. It is used by *pipe_training.pickle* and is updated when re-training the model with *pipe_training.pickle*.
-- :file_folder: `05_Results`
-  - *Project Results.ipynb*: Notebook summarising the insights and KPIs improvements achieved from the exploratory data analysis as well as from the execution of the scoring and lead segmentation machine learning models.
-  - *Execution script.py*: Python script to execute the model and obtain the results.
-  - *Retraining script.py*: Python script to retrain the model with new data when necessary.
-  - *final features.pickle*: Names of the final features pre-selected for input to the model.
+- :file_folder: 04_Models
+  - `pipe_execution.pickle`: pipe that condenses the final trained model as well as all necessary prior data transformations.
+  - `pipe_training.pickle`:  pipe that condenses the entire training process. It can be used to retrain the model with new data when necessary.
+  - `optimal_disc_threshold.pickle`: Contains the value of the optimal discrimination threshold of the model that maximises the company's roi. It is used by *pipe_training.pickle* and is updated when re-training the model with *pipe_training.pickle*.
+- :file_folder: 05_Results
+  - `Project Results.ipynb`: Notebook summarising the insights and KPIs improvements achieved from the exploratory data analysis as well as from the execution of the scoring and lead segmentation machine learning models.
+  - `Execution script.py`: Python script to execute the model and obtain the results.
+  - `Retraining script.py`: Python script to retrain the model with new data when necessary.
+  - `final features.pickle`: Names of the final features pre-selected for input to the model.
