@@ -22,7 +22,7 @@ Once these leads are acquired, employees from the sales team start making calls,
 2. Creating advanced analytical assets such as a predictive lead scoring and customer segmentation algorithms that helps sales team to identify both potential customers who are most likely to convert into paying customers and leads who are not economically profitable to manage.
 
 ## Project results  <a name="project-results"></a>
-### Actionable initiatives derived from exploratory data analysis <a name="actionable-inititatives"></a>
+### Actionable initiatives derived from exploratory data analysis <a name="actionable-initiatives"></a>
 #### Actions to improve company's customer knowledge
 1. Improve quality of the survey or form questions to receive more user inputs and reduce NaN/default ('Select') values.
 2. Improve algorithm for the activity and profile score/index to produce complete and more accurate results.
