@@ -4,7 +4,7 @@
 - [Objectives](#objectives)
 - [Project results](#project-results)
     - [Actionable initiatives](#actionable-initiatives)
-    - [Lead scoring model](#lead-scoring-model)
+    - [Lead scoring model + web application](#lead-scoring-model)
     - [Lead segmentation model](#lead-segmentation-model)
 - [Project structure](#project-structure)
 - [Instructions](#instructions)
@@ -38,7 +38,7 @@ Once these leads are acquired, employees from the sales team start making calls,
 5. Check whether the default value for advertisement features is set to 'No' in the web form, which could explain the high percentage of 'No' for all of them. If this is not the case, then the advertising investment strategy should be completely revised as it is not generating almost any lead (0,24%).
 6. Check that the sales team is only contacting people who have given their consent to do so.
 
-### Lead scoring model <a name="lead-scoring-model"></a>
+### Lead scoring model and web application <a name="lead-scoring-model"></a>
 By applying the developed lead scoring predictive model, the company has been able to:
 1. Increase its sales profit by 2.7%.
 2. Save 36.8% of the amount of money lost due to the management of low quality leads.
@@ -52,6 +52,10 @@ By applying the developed lead scoring predictive model, the company has been ab
 | Workload (nº leads to be managed)  | 1789 leads  | 1376 leads | Reduced by 23.09% |
 | Lost investments ($)  | 3549 | 2242.50 | Reduced by 36.81% |
 | Sales profit ($) | 29028.78 | 29821.14 | Increased by 2.73% |
+
+In order to get the most value out of the developed machine learning model, a prototype web application has been designed so employees can start using them to make practical decisions. This web app collect, on the one hand, the internal data that the company has for each lead (time spent on the website, number of visits, origin…) and on the other hand, the information provided by the lead itself through a web form.
+
+[**Launch Lead Score Analyzer Web App!**](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-asrw2z.streamlitapp.com/)
 
 ### Lead segmentation model <a name="lead-segmentation-model"></a>
 Six different potential customer profiles have been identified. Through the analysis of these customer segments, a series of insights have been derived that lead to the following actionable initiatives:
