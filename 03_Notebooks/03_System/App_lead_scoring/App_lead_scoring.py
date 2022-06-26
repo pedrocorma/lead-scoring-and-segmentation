@@ -1,7 +1,12 @@
 from Execution_script import *
 import streamlit as st
 from streamlit_echarts import st_echarts
-from time import sleep
+from PIL import Image
+
+# LOADING IMAGES
+im_sidebar = Image.open('/img_sidebar.png')
+im_title = Image.open('/img_title.png')
+# im_icon = Image.open('/icon.png')
 
 # PAGE SET UP
 st.set_page_config(
@@ -51,7 +56,7 @@ st.markdown(
 
 # SIDEBAR
 with st.sidebar:
-    # st.image('img_sidebar.jpg')
+    st.image(im_sidebar)
     st.markdown('')
 
     col1, col2, col3, col4, col5 = st.columns([0.5,1,0.25,1,0.5])
@@ -95,7 +100,7 @@ with st.sidebar:
 # Title image
 col1,col2,col3 = st.columns([0.8,1,0.5])
 with col2:
-    st.image('img_title.png')
+    st.image(im_title)
 
 placeholder = st.empty()
 
