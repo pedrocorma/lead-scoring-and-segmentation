@@ -11,7 +11,7 @@ The company markets their course on different websites and search engines. Once 
 
 Once these leads are acquired, employees from the sales team start making calls, writing emails, etc. Through this process, some of the leads get converted while most do not, with the inefficiency of this process impacting company’s benefits.
 
-## Objectives project-structure <a name="objectives"></a>
+## Objectives <a name="objectives"></a>
 1. Analysing historical leads information to propose potential actions that increase overall company turnover.
 2. Creating advanced analytical assets such as a predictive lead scoring and customer segmentation algorithms that helps sales team to identify both potential customers who are most likely to convert into paying customers and leads who are not economically profitable to manage.
 
