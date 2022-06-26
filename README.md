@@ -19,7 +19,6 @@ Once these leads are acquired, employees from the sales team start making calls,
 2. Creating advanced analytical assets such as a predictive lead scoring and customer segmentation algorithms that helps sales team to identify both potential customers who are most likely to convert into paying customers and leads who are not economically profitable to manage.
 
 ## Project results  <a name="project-results"></a>
-
 ### Lead scoring model
 By applying the developed lead scoring predictive model, the company has been able to:
 1. Increase its sales profit by 2.7%.
@@ -27,6 +26,16 @@ By applying the developed lead scoring predictive model, the company has been ab
 3. Increase lead-to-customer conversion rate from 38% to 50%.
 4. Save 23% of time spent by employees on managing leads.
 
+### Lead segmentation model:
+Six different potential customer profiles have been identified. Through the analysis of these customer segments, a series of insights have been derived that lead to the following actionable initiatives:
+1. The company's most valuable leads are those that come from referrals or from Welingak website, and even more so if they are working professionals. As proposed in the exploratory data analysis section, the company should seriously consider creating a referral programme to encourage existing customers to recommend the course to their close circle.
+2. SMS campaigns are performing quite well. However, these campaigns should focus on:
+    - Working professionals comming from API or landing page who spend above-average time on the website.
+    - Leads comming from References or Welingak website regardless of their occupation and time spend on the website.
+    - Avoid sending sms to leads who come from API and have spent a short time on the site.
+3. Olark chat is not performing well. The company should consider withdrawing investment in this service and for leads coming from API replace it with:
+    - Email marketing campaigns in case of working professionals who spent a short time on the website or in case of unemployed leads.
+    - SMS campaigns in case of working professionals who spend above-average time on the website, as discussed in the previous point.
 
 ## Project structure <a name="project-structure"></a>
 - :file_folder: 01_Documents
