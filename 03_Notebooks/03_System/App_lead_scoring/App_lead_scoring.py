@@ -1,11 +1,17 @@
 from Execution_script import *
 import streamlit as st
 from streamlit_echarts import st_echarts
+from PIL import Image
+
+# LOADING IMAGES
+im_sidebar = Image.open('03_Notebooks/03_System/App_lead_scoring/img_sidebar.png')
+im_title = Image.open('03_Notebooks/03_System/App_lead_scoring/img_title.png')
+# im_icon = Image.open('/icon.png')
 
 # PAGE SET UP
 st.set_page_config(
      page_title = 'Lead Score Analyzer',
-     page_icon = 'icon.png',
+     page_icon = '03_Notebooks/03_System/App_lead_scoring/icon.png',
      layout = 'wide',
      initial_sidebar_state="expanded",
      menu_items={
@@ -50,7 +56,7 @@ st.markdown(
 
 # SIDEBAR
 with st.sidebar:
-    st.image('img_sidebar.png')
+    st.image(im_sidebar)
     st.markdown('')
 
     col1, col2, col3, col4, col5 = st.columns([0.5,1,0.25,1,0.5])
@@ -94,7 +100,7 @@ with st.sidebar:
 # Title image
 col1,col2,col3 = st.columns([0.8,1,0.5])
 with col2:
-    st.image('img_title.png')
+    st.image(im_title)
 
 placeholder = st.empty()
 

@@ -17,11 +17,11 @@ from numpy import where, round
 
 def run_model(df):
     # Loading execution pipe
-    with open('pipe_execution.pickle', mode='rb') as file:
+    with open('03_Notebooks/03_System/App_lead_scoring/pipe_execution.pickle', mode='rb') as file:
        pipe_execution = cloudpickle.load(file)
 
     # Loading optimal discrimination threshold
-    with open('optimal_disc_threshold.pickle', mode='rb') as file:
+    with open('03_Notebooks/03_System/App_lead_scoring/optimal_disc_threshold.pickle', mode='rb') as file:
        optimal_disc_threshold = cloudpickle.load(file)
 
     # Execution and results
