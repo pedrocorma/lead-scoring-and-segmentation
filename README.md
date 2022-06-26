@@ -16,7 +16,7 @@ Once these leads are acquired, employees from the sales team start making calls,
 2. Creating advanced analytical assets such as a predictive lead scoring and customer segmentation algorithms that helps sales team to identify both potential customers who are most likely to convert into paying customers and leads who are not economically profitable to manage.
 
 ## Project structure <a name="project-structure"></a>
-- =01_Documents=
+- :file_folder: 01_Documents
   - Contains basic project files:
     - *Leads Data Dictionary.pdf*: feature-level metadata.
     - *pf_leadscoring.yml*: project environment file.
