@@ -4,7 +4,7 @@
 - [Objectives](#objectives)
 - [Project results](#project-results)
 - [Project structure](#project-structure)
-- [Instructions](#project-instructions)
+- [Instructions](#instructions)
 - [License](#licensing)
 
 ## Introduction <a name="introduction"></a>
