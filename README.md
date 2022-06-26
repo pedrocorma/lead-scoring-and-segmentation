@@ -1,5 +1,8 @@
 # Lead scoring and segmentation for an online education company
 
+![Esta es una imagen](/01_Documents/00_Images/web_app_2.png)
+
+
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Project results](#project-results)
