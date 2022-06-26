@@ -2,7 +2,10 @@
 
 - [Introduction](#introduction)
 - [Objectives](#objectives)
+- [Project results](#project-results)
 - [Project structure](#project-structure)
+- [Instructions](#project-instructions)
+- [License](#licensing)
 
 ## Introduction <a name="introduction"></a>
 The client is an online education company which sells an online course to industry professionals.
@@ -14,6 +17,9 @@ Once these leads are acquired, employees from the sales team start making calls,
 ## Objectives <a name="objectives"></a>
 1. Analysing historical leads information to propose potential actions that increase overall company turnover.
 2. Creating advanced analytical assets such as a predictive lead scoring and customer segmentation algorithms that helps sales team to identify both potential customers who are most likely to convert into paying customers and leads who are not economically profitable to manage.
+
+## Project results  <a name="project-results"></a>
+
 
 ## Project structure <a name="project-structure"></a>
 - :file_folder: 01_Documents
@@ -54,7 +60,7 @@ Once these leads are acquired, employees from the sales team start making calls,
   - `Retraining script.py`: Python script to retrain the model with new data when necessary.
   - `final features.pickle`: Names of the final features pre-selected for input to the model.
 
-## Instructions
+## Instructions  <a name="instructions"></a>
 The project should be run using exactly the same environment in which it was created.
 
 - Project environment can be replicated using 'pf_leadscoring.yml' file which was created during the set up phase of the project. It can be found in the folder '01_Documents'.
@@ -63,7 +69,5 @@ The project should be run using exactly the same environment in which it was cre
 
 By other hand, remember to update the `project_path` variable of the notebooks to the path where you have replicated the project.
 
-## Results
-
-## Licensing
+## Licensing <a name="licensing"></a>
 The data set, licensing, and other descriptive information is available [here](https://www.kaggle.com/code/ashydv/lead-scoring-logistic-regression).
