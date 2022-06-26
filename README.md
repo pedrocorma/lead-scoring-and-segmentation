@@ -1,6 +1,6 @@
 # Lead scoring and segmentation for an online education company
 
-- [Introduction](## Introduction)
+- [Introduction](##Introduction)
 
 ## Introduction
 The client is an online education company which sells an online course to industry professionals.
