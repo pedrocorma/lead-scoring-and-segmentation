@@ -16,4 +16,14 @@ Once these leads are acquired, employees from the sales team start making calls,
 2. Creating advanced analytical assets such as a predictive lead scoring and customer segmentation algorithms that helps sales team to identify both potential customers who are most likely to convert into paying customers and leads who are not economically profitable to manage.
 
 ## Project structure <a name="project-structure"></a>
-
+- `01_Documents`
+  - Documents
+02_Data
+  01_Originals
+  02_Validation
+  03_Work
+03_Notebooks
+  02_Development
+  03_System/App_lead_scoring
+04_Models
+05_Results
