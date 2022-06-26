@@ -3,6 +3,9 @@
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Project results](#project-results)
+    - [Actionable initiatives](#actionable-initiatives)
+    - [Lead scoring model](#lead-scoring-model)
+    - [Lead segmentation model](#lead-segmentation-model)
 - [Project structure](#project-structure)
 - [Instructions](#instructions)
 - [License](#licensing)
@@ -19,7 +22,7 @@ Once these leads are acquired, employees from the sales team start making calls,
 2. Creating advanced analytical assets such as a predictive lead scoring and customer segmentation algorithms that helps sales team to identify both potential customers who are most likely to convert into paying customers and leads who are not economically profitable to manage.
 
 ## Project results  <a name="project-results"></a>
-### Actionable initiatives derived from exploratory data analysis
+### Actionable initiatives derived from exploratory data analysis <a name="actionable-inititatives"></a>
 #### Actions to improve company's customer knowledge
 1. Improve quality of the survey or form questions to receive more user inputs and reduce NaN/default ('Select') values.
 2. Improve algorithm for the activity and profile score/index to produce complete and more accurate results.
@@ -35,7 +38,7 @@ Once these leads are acquired, employees from the sales team start making calls,
 5. Check whether the default value for advertisement features is set to 'No' in the web form, which could explain the high percentage of 'No' for all of them. If this is not the case, then the advertising investment strategy should be completely revised as it is not generating almost any lead (0,24%).
 6. Check that the sales team is only contacting people who have given their consent to do so.
 
-### Lead scoring model
+### Lead scoring model <a name="lead-scoring-model"></a>
 By applying the developed lead scoring predictive model, the company has been able to:
 1. Increase its sales profit by 2.7%.
 2. Save 36.8% of the amount of money lost due to the management of low quality leads.
@@ -50,7 +53,7 @@ By applying the developed lead scoring predictive model, the company has been ab
 | Lost investments ($)  | 3549 | 2242.50 | Reduced by 36.81% |
 | Sales profit ($) | 29028.78 | 29821.14 | Increased by 2.73% |
 
-### Lead segmentation model:
+### Lead segmentation model <a name="lead-segmentation-model"></a>
 Six different potential customer profiles have been identified. Through the analysis of these customer segments, a series of insights have been derived that lead to the following actionable initiatives:
 1. The company's most valuable leads are those that come from referrals or from Welingak website, and even more so if they are working professionals. As proposed in the exploratory data analysis section, the company should seriously consider creating a referral programme to encourage existing customers to recommend the course to their close circle.
 2. SMS campaigns are performing quite well. However, these campaigns should focus on:
