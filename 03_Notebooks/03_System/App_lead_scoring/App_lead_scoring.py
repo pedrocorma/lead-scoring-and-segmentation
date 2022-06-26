@@ -51,7 +51,7 @@ st.markdown(
 
 # SIDEBAR
 with st.sidebar:
-    st.image('img_sidebar_lead_scoring.jpg')
+    st.image('img_sidebar_lead_scoring.png')
     st.markdown('')
 
     col1, col2, col3, col4, col5 = st.columns([0.5,1,0.25,1,0.5])
