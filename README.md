@@ -17,13 +17,39 @@ Once these leads are acquired, employees from the sales team start making calls,
 
 ## Project structure <a name="project-structure"></a>
 - `01_Documents`
-  - Documents
+  - Contains basic project files:
+    - *Leads Data Dictionary.pdf*: feature-level metadata.
+    - *pf_leadscoring.yml*: project environment file.
+    - *Development stage_Data Transformation Design.xlsx*: support file for designing feature transformation processes.
+    - *Production stage_Processes Design*: support file for designing final production script.
 - `02_Data`
   - `01_Originals`
+    - *Leads.csv*: Original dataset.
   - `02_Validation`
+    - *validation.csv*: Sample extracted from the original dataset at the beginning of the project in order to be used to check the correct performance of the model once it is put into production.
   - `03_Work`
+    - This folder contains the datasets resulting from each of the stages of the project (data quality, exploratory data analysis, feature transformation...).
 - `03_Notebooks`
   - `02_Development`
+    - *00_Project Design.ipynb*:
+    - *01_Set Up.ipynb*:
+    - *02_Data Quality.ipynb*:
+    - *03_EDA.ipynb*:
+    - *04_Feature Transformation.ipynb*:
+    - *05_Unsupervised Modelling.ipynb*:
+    - *06_Feature Selection.ipynb*:
+    - *07_Supervised Classification Modelling.ipynb*:
+    - *08_Production Code Preparation.ipynb*:
+    - *09_Retraining script.ipynb*:
+    - *10_Execution script.ipynb*:
   - `03_System/App_lead_scoring`
+    - This folder contains the files (app script, production script, models, ...) used in the deployment of the web application "Lead scoring analyzer".
 - `04_Models`
+  - *pipe_execution.pickle*: pipe that condenses the final trained model as well as all necessary prior data transformations.
+  - *pipe_training.pickle*:  pipe that condenses the entire training process. It can be used to retrain the model with new data when necessary.
+  - *optimal_disc_threshold.pickle*: Contains the value of the optimal discrimination threshold of the model that maximises the company's roi. It is used by *pipe_training.pickle* and is updated when re-training the model with *pipe_training.pickle*.
 - `05_Results`
+  - *Project Results.ipynb*: Notebook summarising the insights and KPIs improvements achieved from the exploratory data analysis as well as from the execution of the scoring and lead segmentation machine learning models.
+  - *Execution script.py*: Python script to execute the model and obtain the results.
+  - *Retraining script.py*: Python script to retrain the model with new data when necessary.
+  - *final features.pickle*: Names of the final features pre-selected for input to the model.
