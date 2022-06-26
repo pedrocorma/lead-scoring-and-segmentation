@@ -1,8 +1,8 @@
 # Lead scoring and segmentation for an online education company
 
-- [Introduction](##Introduction)
-- [Objectives](##Objectives)
-- [Project structure](##Project structure)
+- [Introduction](##introduction)
+- [Objectives](##objectives)
+- [Project structure](##project-structure)
 
 ## Introduction
 The client is an online education company which sells an online course to industry professionals.
