@@ -4,8 +4,8 @@ from streamlit_echarts import st_echarts
 from PIL import Image
 
 # LOADING IMAGES
-im_sidebar = Image.open('/img_sidebar.png')
-im_title = Image.open('/img_title.png')
+im_sidebar = Image.open('img_sidebar.png')
+im_title = Image.open('img_title.png')
 # im_icon = Image.open('/icon.png')
 
 # PAGE SET UP
