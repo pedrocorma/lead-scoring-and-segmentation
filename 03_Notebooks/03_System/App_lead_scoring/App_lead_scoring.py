@@ -11,7 +11,7 @@ im_title = Image.open('03_Notebooks/03_System/App_lead_scoring/img_title.png')
 # PAGE SET UP
 st.set_page_config(
      page_title = 'Lead Score Analyzer',
-     page_icon = 'icon.png',
+     page_icon = '03_Notebooks/03_System/App_lead_scoring/icon.png',
      layout = 'wide',
      initial_sidebar_state="expanded",
      menu_items={
