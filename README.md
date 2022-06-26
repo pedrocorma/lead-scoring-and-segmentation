@@ -59,6 +59,8 @@ In order to get the most value out of the developed machine learning model, a pr
 
 [**Launch Lead Score Analyzer Web App!**](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-asrw2z.streamlitapp.com/)
 
+[![Esta es una imagen](/01_Documents/00_Images/web_app_1.png)](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-asrw2z.streamlitapp.com/)
+
 ### Lead segmentation model <a name="lead-segmentation-model"></a>
 Six different potential customer profiles have been identified. Through the analysis of these customer segments, a series of insights have been derived that lead to the following actionable initiatives:
 1. The company's most valuable leads are those that come from referrals or from Welingak website, and even more so if they are working professionals. As proposed in the exploratory data analysis section, the company should seriously consider creating a referral programme to encourage existing customers to recommend the course to their close circle.
