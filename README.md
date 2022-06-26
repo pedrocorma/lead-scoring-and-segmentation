@@ -1,6 +1,8 @@
 # Lead scoring and segmentation for an online education company
 
-[![Esta es una imagen](/01_Documents/00_Images/web_app_2.png)](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-asrw2z.streamlitapp.com/)
+<a href="https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-asrw2z.streamlitapp.com/" target="_blank"> ![Esta es una imagen](/01_Documents/00_Images/web_app_2.png) </a>
+
+
 
 - [Introduction](#introduction)
 - [Objectives](#objectives)
