@@ -53,3 +53,16 @@ Once these leads are acquired, employees from the sales team start making calls,
   - `Execution script.py`: Python script to execute the model and obtain the results.
   - `Retraining script.py`: Python script to retrain the model with new data when necessary.
   - `final features.pickle`: Names of the final features pre-selected for input to the model.
+
+## Instructions
+The project should be run using exactly the same environment in which it was created.
+
+Project environment can be replicated using 'pf_leadscoring.yml' file which was created during the set up phase of the project. It can be found in the folder '01_Documents'.
+
+- Copy 'pf_leadscoring.xml' file to the directory and using the terminal or anaconda prompt execute:
+> conda env create --file pf_leadscoring.yml --name project_name
+
+## Results
+
+## Licensing
+The data set, licensing, and other descriptive information is available [here](https://www.kaggle.com/code/ashydv/lead-scoring-logistic-regression).
