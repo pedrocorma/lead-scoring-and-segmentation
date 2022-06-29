@@ -271,23 +271,4 @@ if calculate_button:
                 st.markdown("<h4 style='text-align: center; color: #FF6E76;'>It is not cost-effective to manage this lead.</h4>", unsafe_allow_html=True)
         st.markdown('---')
         results_plot = st_echarts(options=chart_options, width="100%", key=0, height='550%')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##
+          
