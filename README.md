@@ -102,7 +102,7 @@ Six different potential customer profiles have been identified. Through the anal
     - `09_Retraining script.ipynb`: Notebook to retrain the model with new data when necessary.
     - `10_Execution script.ipynb`: Notebook to execute the final model and obtain the results.
   - :file_folder: 03_System/App_lead_scoring
-    - This folder contains the files (app script, production script, models, ...) used in the deployment of the web application [Lead scoring analyzer"](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-asrw2z.streamlitapp.com/).
+    - This folder contains the files (app script, production script, models, ...) used in the deployment of the web application [Lead scoring analyzer](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-asrw2z.streamlitapp.com/).
 - :file_folder: 04_Models
   - `pipe_execution.pickle`: pipe that condenses the final trained model as well as all necessary prior data transformations.
   - `pipe_training.pickle`:  pipe that condenses the entire training process. It can be used to retrain the model with new data when necessary.
