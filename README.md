@@ -1,6 +1,6 @@
 # Lead scoring and segmentation for an online education company
 
-[![Esta es una imagen](/01_Documents/00_Images/web_app_2.png)](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-asrw2z.streamlitapp.com/)
+[![Esta es una imagen](/01_Documents/00_Images/web_app_2.png)](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-omfnil.streamlitapp.com/)
 
 - [Introduction](#introduction)
 - [Objectives](#objectives)
@@ -59,9 +59,9 @@ By applying the developed lead scoring predictive model, the company has been ab
 
 In order to get the most value out of the developed machine learning model, a prototype web application has been designed so employees can start using them to make practical decisions. This web app collect, on the one hand, the internal data that the company has for each lead (time spent on the website, number of visits, origin…) and on the other hand, the information provided by the lead itself through a web form.
 
-[**Launch Lead Score Analyzer Web App!**](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-asrw2z.streamlitapp.com/)
+[**Launch Lead Score Analyzer Web App!**](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-omfnil.streamlitapp.com/)
 
-[![Esta es una imagen](/01_Documents/00_Images/web_app_1.png)](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-asrw2z.streamlitapp.com/)
+[![Esta es una imagen](/01_Documents/00_Images/web_app_1.png)](https://p-03-notebooks03-systemapp-lead-scoringapp-lead-scoring-omfnil.streamlitapp.com/)
 
 ### Lead segmentation model <a name="lead-segmentation-model"></a>
 Six different potential customer profiles have been identified. Through the analysis of these customer segments, a series of insights have been derived that lead to the following actionable initiatives:
