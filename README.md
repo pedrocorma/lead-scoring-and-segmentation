@@ -19,7 +19,7 @@ The company markets their course on different websites and search engines. Once 
 
 Once these leads are acquired, employees from the sales team start making calls, writing emails, etc. Through this process, some of the leads get converted while most do not, with the inefficiency of this process impacting company’s benefits.
 
-- [See a detailed technical explanation of project here.](https://pedrocorma.github.io/project/2leadscoring/)
+- [See a detailed technical explanation of the project here.](https://pedrocorma.github.io/project/2leadscoring/)
 
 ## Objectives <a name="objectives"></a>
 1. Analysing historical leads information to propose potential actions that increase overall company turnover.
